@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second Page</title>
+</head>
+	<body>
+		<h1>Arshia Lak</h1>
+		<!-- Starting with education-->
+			<h2>Education</h2>
+				<b>High School</b>
+					<p>Graduated from Gleneagle Secondary School at 2019 with a GPA of 4.0. At Gleneagle I was part of a leadership the Con-X leadership class in which I was in charge of coordinating, with 6 other students, a seminar about youth mental health.</p>
+				<b>Post Secondary</b>
+					<p>Currently a student at Information Technology Development (ITD) of Canada taking the course of open-source development</p>
+			<h2>Work Experience</h2>
+			<!--Should be expanded in the future-->
+				<b>Family Health Association of Iran (FHA) <i>December 2015 - November 2017</i></b>
+					<p>Part of the youth committee which in which I was in charge variety of activities including volunteer coordination and event assisstant. In addition, I was part of the computer team of the organization in which the duties included support relating to the website and preparing presentations for the staff and new volunteers</p>
+				<b>Immigrants Services Society of BC (ISSofBC) <i>February 2018 - August 2018</i></b>
+					<p>As an immigrant myself, I was familiar with the hardships one faces when moved to a different country. I was lucky enough to come to Canada by my own choice while being proficient in English. ISSofBC gave me a chance to be around people who did not have the privilages I had and came to Canada based on unforeseen circumstances. In ISSofBC I had several jobs including event assisstant, facilitator and guide. However the majority of my time was spent as an administrator which involved variety of duties including paperwork, acting as the communicator between the facilitator and the program coordinator, and making sure everything was provided for the facilitators and participants of various programs.</p>
+			<h2>Abilities</h2>
+	<!-- Abilities, Hobbies-->
+	</body>
+</html>
