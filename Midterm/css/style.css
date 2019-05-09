@@ -1,0 +1,34 @@
+.foot{
+	background-color: black;
+	color: white;
+}
+
+#index{
+	background-image: url("../image/bgimage.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+div{
+	background-color: white;
+}
+
+.flag {
+	width:25px;
+	height: 25px;
+}
+
+.film {
+	width: 50%;
+	min-height: 250px;
+	max-height: 500px;
+}
+
+.frame {
+	width: 100%;
+	height: 550px;
+	border: 0;
+}
