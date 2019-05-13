@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+	<link rel="manifest" href="../favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Currency</title>
+</head>
+<body id="body">
+	<h1>Currency Exchange</h1>
+	<div class="container">
+		<h3>Enter your value here:</h3>
+		<input type="text" name="amount">
+		<br>
+		<!-- First Currency, the currency we want to convert from -->
+		<div class="d-flex">
+		  <div class="dropdown mr-1">
+		    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+		      From
+		    </button>
+		    <div id="currency" class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+		      <a class="dropdown-item" id="iran" href="#">Iranian Rials (IRR)
+		      	<img src="../img/iran.png" class="flag" alt="Iran" title="Iran">
+		      </a>
+		      <a class="dropdown-item" id="usa" href="#">US Dollars (USD)
+		      	<img src="../img/usa.jfif" class="flag" alt="USA" title="USA">
+		      </a>
+		      <a class="dropdown-item" id="europe" href="#">Euro (EUR)
+		      	<img src="../img/euro.png" class="flag" alt="EU" title="Europe">
+		      </a>
+		      <a class="dropdown-item" id="britain" href="#">British Pounds (BUP)
+		      	<img src="../img/britain.jfif" class="flag" alt="Britian" title="Britain">
+		      </a>
+		      <a class="dropdown-item" id="australia" href="#">Australian Dollars (AUD)
+		      	<img src="../img/australia.png" class="flag" alt="australia" title="Australia">
+		      </a>
+		      <a class="dropdown-item" id="emirates" href="#">Emirati Dirham (AED)
+		      	<img src="../img/uae.jfif" class="flag" alt="UAE" title="UAE">
+		      </a>
+		      <a class="dropdown-item" id="brazil" href="#">Brazilian Real (BRL)
+		      	<img src="../img/brazil.jfif" class="flag" alt="Brazil" title="Brazil">
+		      </a>
+		      <a class="dropdown-item" id="japan" href="#">Japanese Yuan (JPY)
+		      	<img src="../img/japan.jfif" class="flag" alt="Japan" title="Japan">
+		      </a>
+		      <a class="dropdown-item" id="china" href="#">Chinese Yuan Renminbi (CNY)
+		      	<img src="../img/china.jfif" class="flag" alt="China" title="China">
+		      </a>
+		      <a class="dropdown-item" id="swiss" href="#">Swiss Francs (CHF)
+		      	<img src="../img/swiss.jfif" class="flag" alt="Swiss" title="Swiss">
+		      </a>
+		    </div>
+		</div>
+		<!-- End of first currency -->
+
+		<!-- Start of second currency -->
+		<div class="d-flex">
+		  <div class="dropdown mr-1">
+		    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+		      To
+		    </button>
+		    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+		      <a class="dropdown-item" id="iran" href="#">Iranian Rials (IRR)
+		      	<img src="../img/iran.png" class="flag" alt="Iran" title="Iran">
+		      </a>
+		      <a class="dropdown-item" id="usa" href="#">US Dollars (USD)
+		      	<img src="../img/usa.jfif" class="flag" alt="USA" title="USA">
+		      </a>
+		      <a class="dropdown-item" id="europe" href="#">Euro (EUR)
+		      	<img src="../img/euro.png" class="flag" alt="EU" title="Europe">
+		      </a>
+		      <a class="dropdown-item" id="britain" href="#">British Pounds (BUP)
+		      	<img src="../img/britain.jfif" class="flag" alt="Britian" title="Britain">
+		      </a>
+		      <a class="dropdown-item" id="austrailia" href="#">Australian Dollars (AUD)
+		      	<img src="../img/australia.png" class="flag" alt="australia" title="Australia">
+		      </a>
+		      <a class="dropdown-item" id="emirates" href="#">Emirati Dirham (AED)
+		      	<img src="../img/uae.jfif" class="flag" alt="UAE" title="UAE">
+		      </a>
+		      <a class="dropdown-item" id="brazil" href="#">Brazilian Real (BRL)
+		      	<img src="../img/brazil.jfif" class="flag" alt="Brazil" title="Brazil">
+		      </a>
+		      <a class="dropdown-item" id="japan" href="#">Japanese Yuan (JPY)
+		      	<img src="../img/japan.jfif" class="flag" alt="Japan" title="Japan">
+		      </a>
+		      <a class="dropdown-item" id="china" href="#">Chinese Yuan Renminbi (CNY)
+		      	<img src="../img/china.jfif" class="flag" alt="China" title="China">
+		      </a>
+		      <a class="dropdown-item" id="swiss" href="#">Swiss Francs (CHF)
+		      	<img src="../img/swiss.jfif" class="flag" alt="Swiss" title="Swiss">
+		      </a>
+		    </div>
+		</div>
+		<!-- end of second currency -->
+		<br>
+		<button onclick="currencyExchange();">Convert</button>
+		<br>
+		<p id="result"></p>
+	</div>
+
+	<div class="container">
+		
+	</div>
+
+
+
+	<!-- JS script -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
