@@ -1,0 +1,21 @@
+function grossIncome() {
+	var rate = document.getElementById('rate').value;
+	var hour = document.getElementById('hour').value;
+	var income = document.getElementById('grossIncome');
+	if (hour <= 40) {
+		income.innerHTML = (rate * hour) * 52/12;
+	} else if (hour > 40) {
+		income.innerHTML = (rate * 40) + ((hour - 40) * (rate + (rate * 0.2))) * 52/12;
+	} 
+}
+function fToC() {
+	var fahrenheit = document.getElementById('fahrenheit').value;
+	var celsius = (fahrenheit - 32) * 5/9;
+	if (celsius < 0) {
+		document.getElementById('celsius').innerHTML = celsius + " degrees celsius, It's Freezing!";
+	} else if (celsius > 30) {
+		document.getElementById('celsius').innerHTML = celsius + " degrees celsius, It's too hot!";
+	} else {
+		document.getElementById('celsius').innerHTML = celsius + " degrees celsius";
+	}
+}
